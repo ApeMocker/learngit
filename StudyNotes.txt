@@ -11,5 +11,17 @@ git commit -m "说明信息"
 查看仓库当前状态：
 git status
 
-查看改变：
-git diff
+查看改变(更改的文件与add到缓存之间的改变）：
+git diff 
+
+查看版本：
+git log 
+
+选择版本： 
+git reset --hard <版本ID> 
+
+回退版本：
+git reset --hard HEAD^ :回退1个版本
+git reset --hard HEAD^^ :回退2个版本
+git reset --hard HEAD~N :回退N个版本
+
