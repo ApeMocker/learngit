@@ -32,3 +32,34 @@ git diff HEAD -- readme.txt
 git restore --staged <file>  ：撤回暂缓区的修改
 git restore <file> : 撤回工作区的修改
 
+将本地版本库上传到Github库：
+git remote add origin git@github.com:ApeMocker/learngit.git
+git push -u origin master
+
+将本地新的提交上传至Github：
+git push origin master
+
+从Github库克隆：
+git clone git@github.com:ApeMocker/gitskills.git
+
+创建分支dev：
+git branch dev
+
+切换分支：
+git checkout dev
+或者 git switch -c 
+
+创建加切换：
+git checkout -b <name>
+或者 git switch -c <name>
+
+查看所有分支：
+git branch
+
+合并某分支到当前分支：
+git merge dev
+
+删除分支：
+git branch -d dev
+
+
