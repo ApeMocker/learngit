@@ -27,3 +27,8 @@ git reset --hard HEAD~N :回退N个版本
 
 查看最新版本与当前工作区<readme.txt>文件的区别：
 git diff HEAD -- readme.txt
+
+撤回修改：
+git restore --staged <file>  ：撤回暂缓区的修改
+git restore <file> : 撤回工作区的修改
+
