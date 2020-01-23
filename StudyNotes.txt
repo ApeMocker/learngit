@@ -1,0 +1,15 @@
+创建版本库：
+1.创建空文件夹（新目录）
+2.在新目录下：git init
+
+添加文件：
+git add (file)
+
+提交文件：
+git commit -m "说明信息"
+
+查看仓库当前状态：
+git status
+
+查看改变：
+git diff
