@@ -25,3 +25,5 @@ git reset --hard HEAD^ :回退1个版本
 git reset --hard HEAD^^ :回退2个版本
 git reset --hard HEAD~N :回退N个版本
 
+查看最新版本与当前工作区<readme.txt>文件的区别：
+git diff HEAD -- readme.txt
