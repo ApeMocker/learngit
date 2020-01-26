@@ -63,3 +63,20 @@ git merge dev
 git branch -d dev
 
 
+保存工作区：
+git stash
+
+查看保留的工作区：
+git stash list
+
+恢复工作区:
+git stash apply <name>
+
+删除工作区：
+git stash drop <name>
+
+弹出工作区：
+git stash pop
+
+将某个修改复制到当前分支：
+git cherry-pick <name>
