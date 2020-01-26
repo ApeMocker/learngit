@@ -63,3 +63,65 @@ git merge dev
 git branch -d dev
 
 
+保存工作区：
+git stash
+
+查看保留的工作区：
+git stash list
+
+恢复工作区:
+git stash apply <name>
+
+删除工作区：
+git stash drop <name>
+
+弹出工作区：
+git stash pop
+
+将某个修改复制到当前分支：
+git cherry-pick <name>
+
+查看远程库信息：
+git remote -v
+
+从本地推送分支：
+git push origin branch-name
+
+从本地创建和远程分支对应的分支：
+git checkout -b branch-name origin/branch-name
+
+建立本地分支和远程分支的关联： 
+git branch --set-upstream branch-name origin/branch-name
+
+从远程抓取分支：
+git pull
+
+创建标签：
+git tag <tagname>
+
+指定标签信息：
+git tag -a <tagname> -m "....."
+
+查看所有标签：
+git tag 
+
+查看某个标签：
+git show <tagname>
+
+删除标签：
+git tag -d <tagname>
+
+将标签推送到远程：
+git push origin <tagname>
+
+推送所有本地标签：
+git push origin --tags
+
+删除远程标签：
+git tag -d <tagname>
+git push origin :refs/tags/<tagname>
+
+github开源项目：
+1.先将别人的版本库clone到自己的远程库
+2.从自己的远程库clone到自己的本地库
+3.在本地库进行开发修改
